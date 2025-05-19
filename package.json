@@ -1,0 +1,26 @@
+{
+  "name": "mrcharilievideo2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "dev": "nodemon -r dotenv/config --watch --trace-warnings index.js"
+  },
+  "author": "solomon",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.0",
+    "nodemailer": "^6.10.0",
+    "nodemon": "^3.1.9"
+  },
+  "description": ""
+}
